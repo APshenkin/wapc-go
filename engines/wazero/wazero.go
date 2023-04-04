@@ -2,6 +2,7 @@ package wazero
 
 import (
 	"context"
+	"crypto/rand"
 	"errors"
 	"fmt"
 	"sync/atomic"
